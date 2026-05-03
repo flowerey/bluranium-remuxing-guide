@@ -16,7 +16,7 @@ A BLURANiUM approved remux aims to (i) provide the best possible home viewing an
 - [1 Installation](#1)
 - [2 Decrypt](#2)
 - [3 Demux](#3)
-  - [3.1 Demux BDs (1080p)](#3-1)
+  - [3.1 Demux BDs (1080p)](#3.1)
   - [3.2 Demux DVDs](#3-2)
   - [3.3 Demux UHDBDs](#3-3)
   - [3.4 See also](#3-4)
