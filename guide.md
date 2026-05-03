@@ -71,7 +71,7 @@ All software used must be up to date.
 #### For metadata extraction
 
 - **BDInfo (GUI)**
-  [https://www.videohelp.com/software/BDInfo](https://www.videohelp.com/software/BDInfo)
+  [https://github.com/UniqProject/BDInfo](https://github.com/UniqProject/BDInfo)
 - **BDInfo (CLI)**
   [https://github.com/zoffline/BDInfoCLI-ng/tree/UHD_Support_CLI/prebuilt](https://github.com/zoffline/BDInfoCLI-ng/tree/UHD_Support_CLI/prebuilt)
 - **MediaInfo**
@@ -79,12 +79,14 @@ All software used must be up to date.
 
 #### For demuxing/remuxing
 
-- **Eac3to** - extracts media tracks from BDMV
+- **eac3to** - extracts media tracks from BDMV
   [https://www.videohelp.com/software/eac3to](https://www.videohelp.com/software/eac3to)
+- **eac3to with updated libraries** - extracts media tracks from BDMV (has updated libFLAC and ffmpeg)
+  [https://files.catbox.moe/o1269e.zip](https://files.catbox.moe/o1269e.zip)
 - **MakeMKV** - rips UHD discs with Dolby Vision / demuxes audio of seamlessly branched UHDBD discs
   [https://www.makemkv.com/](https://www.makemkv.com/)
 - **DGDemux** - rips seamlessly branched UHDBDs most reliably
-  [http://rationalqm.us/dgdemux/dgdemux.html](http://rationalqm.us/dgdemux/dgdemux.html)
+  [https://www.rationalqm.us/dgdemux/dgdemux.html](https://www.rationalqm.us/dgdemux/dgdemux.html)
 - **Process Monitor** - helps demux finicky discs
   [https://docs.microsoft.com/en-us/sysinternals/downloads/procmon](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
 
