@@ -12,144 +12,142 @@ A BLURANiUM approved remux aims to (i) provide the best possible home viewing an
 
 ## Table of Contents
 
-- [0 Changelog](#0)
-- [1 Installation](#1)
-- [2 Decrypt](#2)
-- [3 Demux](#3)
-  - [3.1 Demux BDs (1080p)](#3.1)
-  - [3.2 Demux DVDs](#3-2)
-  - [3.3 Demux UHDBDs](#3-3)
-  - [3.4 See also](#3-4)
-- [4 BDInfo](#4)
-- [5 Compare](#5)
-  - [5.1 Find best video track](#5-1)
-  - [5.2 Find best audio track](#5-2)
-  - [5.3 Collect all subtitles](#5-3)
-  - [5.4 See also](#5-4)
-  - [5.5 AviSynth+ script 1](#5-5)
-  - [5.6 AviSynth+ script 2](#5-6)
-  - [5.7 VapourSynth script 1](#5-7)
-  - [5.8 VapourSynth script 2](#5-8)
-- [6 Conversion](#6)
-  - [6.1 Convert lossless audio](#6-1)
-  - [6.2 Convert dual mono](#6-2)
-  - [6.3 Convert text-based subtitles](#6-3)
-  - [6.4 Convert image-based subtitles (aka OCR)](#6-4)
-  - [6.5 Tonemap HDR subtitles](#6-5)
-- [7 Chapters](#7)
-  - [7.1 Collect](#7-1)
-  - [7.2 Check for accuracy](#7-2)
-  - [7.3 See also](#7-3)
-- [8 Syncing](#8)
-  - [8.1 Sync audio to video with offset](#8-1)
-  - [8.2 Sync chapters to scene-change frames](#8-2)
-  - [8.3 Sync subtitles](#8-3)
-  - [8.4 Sync Kino Lorber BDs](#8-4)
-- [9 Tag](#9)
-- [10 Mux](#10)
-  - [10.1 Import all the tracks](#10-1)
-  - [10.2 Order the tracks](#10-2)
-    - [10.2.1 Order the video](#10-2-1)
-    - [10.2.2 Order the audio](#10-2-2)
-    - [10.2.3 Order the subtitles](#10-2-3)
-  - [10.3 Rename all the tracks](#10-3)
-    - [10.3.1 Name the video](#10-3-1)
-    - [10.3.2 Name the audio](#10-3-2)
-      - [10.3.2.1 Name older audio formats](#10-3-2-1)
-    - [10.3.3 Name the subtitles](#10-3-3)
-  - [10.4 Set flags and add metadata](#10-4)
-    - [10.4.1 Set flags](#10-4-1)
-    - [10.4.2 Set compression](#10-4-2)
-    - [10.4.3 Add additional metadata](#10-4-3)
-  - [10.5 Name the file](#10-5)
-- [11 Request approval](#11)
+- [0 Changelog](https://example.com/wikis/26#0)
+- [1 Installation](https://example.com/wikis/26#1)
+- [2 Decrypt](https://example.com/wikis/26#2)
+- [3 Demux](https://example.com/wikis/26#3)
+  - [3.1 Demux BDs (1080p)](https://example.com/wikis/26#3-1)
+  - [3.2 Demux DVDs](https://example.com/wikis/26#3-2)
+  - [3.3 Demux UHDBDs](https://example.com/wikis/26#3-3)
+  - [3.4 See also](https://example.com/wikis/26#3-4)
+- [4 BDInfo](https://example.com/wikis/26#4)
+- [5 Compare](https://example.com/wikis/26#5)
+  - [5.1 Find best video track](https://example.com/wikis/26#5-1)
+  - [5.2 Find best audio track](https://example.com/wikis/26#5-2)
+  - [5.3 Collect all subtitles](https://example.com/wikis/26#5-3)
+  - [5.4 See also](https://example.com/wikis/26#5-4)
+  - [5.5 AviSynth+ script 1](https://example.com/wikis/26#5-5)
+  - [5.6 AviSynth+ script 2](https://example.com/wikis/26#5-6)
+  - [5.7 VapourSynth script 1](https://example.com/wikis/26#5-7)
+  - [5.8 VapourSynth script 2](https://example.com/wikis/26#5-8)
+- [6 Conversion](https://example.com/wikis/26#6)
+  - [6.1 Convert lossless audio](https://example.com/wikis/26#6-1)
+  - [6.2 Convert dual mono](https://example.com/wikis/26#6-2)
+  - [6.3 Convert text-based subtitles](https://example.com/wikis/26#6-3)
+  - [6.4 Convert image-based subtitles (aka OCR)](https://example.com/wikis/26#6-4)
+  - [6.5 Tonemap HDR subtitles](https://example.com/wikis/26#6-5)
+- [7 Chapters](https://example.com/wikis/26#7)
+  - [7.1 Collect](https://example.com/wikis/26#7-1)
+  - [7.2 Check for accuracy](https://example.com/wikis/26#7-2)
+  - [7.3 See also](https://example.com/wikis/26#7-3)
+- [8 Syncing](https://example.com/wikis/26#8)
+  - [8.1 Sync audio to video with offset](https://example.com/wikis/26#8-1)
+  - [8.2 Sync chapters to scene-change frames](https://example.com/wikis/26#8-2)
+  - [8.3 Sync subtitles](https://example.com/wikis/26#8-3)
+  - [8.4 Sync Kino Lorber BDs](https://example.com/wikis/26#8-4)
+- [9 Tag](https://example.com/wikis/26#9)
+- [10 Mux](https://example.com/wikis/26#10)
+  - [10.1 Import all the tracks](https://example.com/wikis/26#10-1)
+  - [10.2 Order the tracks](https://example.com/wikis/26#10-2)
+    - [10.2.1 Order the video](https://example.com/wikis/26#10-2-1)
+    - [10.2.2 Order the audio](https://example.com/wikis/26#10-2-2)
+    - [10.2.3 Order the subtitles](https://example.com/wikis/26#10-2-3)
+  - [10.3 Rename all the tracks](https://example.com/wikis/26#10-3)
+    - [10.3.1 Name the video](https://example.com/wikis/26#10-3-1)
+    - [10.3.2 Name the audio](https://example.com/wikis/26#10-3-2)
+      - [10.3.2.1 Name older audio formats](https://example.com/wikis/26#10-3-2-1)
+    - [10.3.3 Name the subtitles](https://example.com/wikis/26#10-3-3)
+  - [10.4 Set flags and add metadata](https://example.com/wikis/26#10-4)
+    - [10.4.1 Set flags](https://example.com/wikis/26#10-4-1)
+    - [10.4.2 Set compression](https://example.com/wikis/26#10-4-2)
+    - [10.4.3 Add additional metadata](https://example.com/wikis/26#10-4-3)
+  - [10.5 Name the file](https://example.com/wikis/26#10-5)
+- [11 Request approval](https://example.com/wikis/26#11)
 
 ## 1 Installation
 
 All software used must be up to date.
 
-#### For metadata extraction:
+#### For metadata extraction
 
-- **BDInfo (GUI)**  
+- **BDInfo (GUI)**
   [https://www.videohelp.com/software/BDInfo](https://www.videohelp.com/software/BDInfo)
-- **BDInfo (CLI)**  
+- **BDInfo (CLI)**
   [https://github.com/zoffline/BDInfoCLI-ng/tree/UHD_Support_CLI/prebuilt](https://github.com/zoffline/BDInfoCLI-ng/tree/UHD_Support_CLI/prebuilt)
-- **MediaInfo**  
+- **MediaInfo**
   [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo)
 
-#### For demuxing/remuxing:
+#### For demuxing/remuxing
 
-- **Eac3to** - extracts media tracks from BDMV  
+- **Eac3to** - extracts media tracks from BDMV
   [https://www.videohelp.com/software/eac3to](https://www.videohelp.com/software/eac3to)
-- **StaxRip** - includes latest eac3to with updated codec DLLs  
-  [https://github.com/staxrip/staxrip/releases](https://github.com/staxrip/staxrip/releases)
-- **MakeMKV** - rips UHD discs with Dolby Vision / demuxes audio of seamlessly branched UHDBD discs  
+- **MakeMKV** - rips UHD discs with Dolby Vision / demuxes audio of seamlessly branched UHDBD discs
   [https://www.makemkv.com/](https://www.makemkv.com/)
-- **DGDemux** - rips seamlessly branched UHDBDs most reliably  
+- **DGDemux** - rips seamlessly branched UHDBDs most reliably
   [http://rationalqm.us/dgdemux/dgdemux.html](http://rationalqm.us/dgdemux/dgdemux.html)
-- **Process Monitor** - helps demux finicky discs  
+- **Process Monitor** - helps demux finicky discs
   [https://docs.microsoft.com/en-us/sysinternals/downloads/procmon](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
 
-#### For playback:
+#### For playback
 
-- **Media player environment (MPC-HC)** - open source media player for Windows.  
+- **Media player environment (MPC-HC)** - open source media player for Windows.
   [https://codecguide.com/features_mega.htm](https://codecguide.com/features_mega.htm)
-- **VLC** - cross platform media player, which can also open BD and DVD menus.  
+- **VLC** - cross platform media player, which can also open BD and DVD menus.
   [https://www.videolan.org/vlc/index.html](https://www.videolan.org/vlc/index.html)
 - **DVDFab Player** - proprietary media player for Windows/Mac with menu support for UHD Blu-rays.
 - **Java Runtime Environment** - used to view Blu-ray menus in VLC.
 
-#### For losslessly encoding audio:
+#### For losslessly encoding audio
 
 - **Dolby Media Producer Suite**
 - **DTS Master Audio Suite**
 
-#### For analysing video:
+#### For analysing video
 
 Choose one of the following options:
 
 ##### AviSynth+ workflow
 
-- **AviSynth+** - frameserver which runs AviSynth+ scripts.  
+- **AviSynth+** - frameserver which runs AviSynth+ scripts.
   [https://github.com/AviSynth/AviSynthPlus/releases](https://github.com/AviSynth/AviSynthPlus/releases)
-- **AVSPmod** - text editor which also allows previewing AviSynth+ scripts.  
+- **AVSPmod** - text editor which also allows previewing AviSynth+ scripts.
   [https://www.videohelp.com/software/AvsP](https://www.videohelp.com/software/AvsP)
-- **ffms2** - frame-accurate video reader for AviSynth+.  
+- **ffms2** - frame-accurate video reader for AviSynth+.
   [https://github.com/FFMS/ffms2/releases](https://github.com/FFMS/ffms2/releases)
 
 ##### VapourSynth workflow
 
-- **VapourSynth** - frameserver which runs VapourSynth scripts.  
+- **VapourSynth** - frameserver which runs VapourSynth scripts.
   [https://www.vapoursynth.com/doc/installation.html](https://www.vapoursynth.com/doc/installation.html)
-- **VSEdit** - text editor which also allows previewing VapourSynth scripts.  
+- **VSEdit** - text editor which also allows previewing VapourSynth scripts.
   [https://bitbucket.org/mystery_keeper/vapoursynth-editor/downloads/](https://bitbucket.org/mystery_keeper/vapoursynth-editor/downloads/)
-- **btpfunc** - collection of useful VapourSynth functions.  
+- **btpfunc** - collection of useful VapourSynth functions.
   [https://github.com/Kevlar604/btpfunc](https://github.com/Kevlar604/btpfunc)
-- **L-SMASH** - frame-accurate video reader for VapourSynth.  
+- **L-SMASH** - frame-accurate video reader for VapourSynth.
   [https://github.com/HolyWu/L-SMASH-Works/releases/](https://github.com/HolyWu/L-SMASH-Works/releases/)
 
-#### For analysing audio:
+#### For analysing audio
 
-- **Audacity** - for viewing digital waveforms.  
+- **Audacity** - for viewing digital waveforms.
   [https://www.audacityteam.org/download/](https://www.audacityteam.org/download/)
 - **Adobe Audition** - generates spectrograms, frequency response data, and amplitude statistics.
-- **SoX** - cross platform CLI program for generating spectrograms.  
+- **SoX** - cross platform CLI program for generating spectrograms.
   [https://sourceforge.net/projects/sox/files/sox/14.4.2/](https://sourceforge.net/projects/sox/files/sox/14.4.2/)
-- **TT Dynamic Range Meter** - for measuring dynamic range.  
+- **TT Dynamic Range Meter** - for measuring dynamic range.
   [http://dr.loudness-war.info/downloads/DR-Meter-1_4a.zip](http://dr.loudness-war.info/downloads/DR-Meter-1_4a.zip)
 
-#### For editing/converting subtitles:
+#### For editing/converting subtitles
 
-- **BDSup2Sub** - edits/converts retail subtitles.  
+- **BDSup2Sub** - edits/converts retail subtitles.
   [https://www.videohelp.com/software/BDSup2Sub](https://www.videohelp.com/software/BDSup2Sub) (Use the .JAR. The .EXE lossily re-encodes the images)
-- **SubtitleEdit** - edits/converts text-based subtitles.  
+- **SubtitleEdit** - edits/converts text-based subtitles.
   [https://github.com/SubtitleEdit/subtitleedit/releases](https://github.com/SubtitleEdit/subtitleedit/releases)
-- **subtitle_tonemap** - tonemaps SDR-PGS subtitles to make them suitable for HDR video sources.  
+- **subtitle_tonemap** - tonemaps SDR-PGS subtitles to make them suitable for HDR video sources.
   [https://github.com/quietvoid/subtitle_tonemap/releases/](https://github.com/quietvoid/subtitle_tonemap/releases/)
 
 ## 2 Decrypt
 
-Skip to [step 3 (Demux)](#3) if you don't need to rip a physical disc.
+Skip to [step 3 (Demux)](https://example.com/wikis/26#3) if you don't need to rip a physical disc.
 
 Otherwise, first follow the [Full Disc Ripping Guide](https://example.com/wikis/25).
 
@@ -161,8 +159,8 @@ Exception: Since eac3to is unable to process PTS timing correctly on HEVC video,
 
 Prepare eac3to:
 
-1.  Eac3to from StaxRip is recommended as it includes the latest codecs.
-2.  Add the directory of eac3to to the system path (Search online: `how to add directory to system path`).
+1. Eac3to from StaxRip is recommended as it includes the latest codecs.
+2. Add the directory of eac3to to the system path (Search online: `how to add directory to system path`).
 
 ### 3.1 Demux BDs (1080p)
 
@@ -170,70 +168,70 @@ BDs consist of playlists (.MPLS files) which consist of media (.M2TS files). Sca
 
 To demux a BD, specify the playlist you wish to demux, and if applicable, the individual tracks. The `-demux` flag will extract all the tracks in the specified playlist. Extracting specific tracks from the playlist can also be done as shown below. See [here](https://en.wikibooks.org/wiki/Eac3to/How_to_Use#Command_Line_Syntax) for more commands.
 
-##### To demux a BD:
+##### To demux a BD
 
 Method 1 (using eac3to):
 
-1.  Open Windows Command Prompt and change the current directory to your project folder:
-    - `cd /d <projectFolderPath>`
-    - E.g. `cd /d "D:\workshop\"`
-2.  Use eac3to summary to find the correct playlist:
-    - `eac3to <BDMVFolderPath>`
-    - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR"`
-3.  Demux all media in the playlist to your project folder:
-    - `eac3to <BDMVFolderPath> <playlistNumber>) -demux -log="eac3to.txt"`
-    - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR" 1) -demux -log=eac3to.txt`
-4.  To demux specific playlists and tracks, specify via the command line:
-    - `eac3to <BDMVFolderPath> <playlistNumber>) <trackNumber>:outputFilename.* -log="eac3to.txt"`
-    - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR" 1) 1:chapters.txt 2:video.* 3:audio.* 4:subtitles.* -log="eac3to.txt"`
-    - **Note:** DTS Express fails when using a wildcard extension (`.*`) and requires using the `.dts` extension instead.
+1. Open Windows Command Prompt and change the current directory to your project folder:
+   - `cd /d <projectFolderPath>`
+   - E.g. `cd /d "D:\workshop\"`
+2. Use eac3to summary to find the correct playlist:
+   - `eac3to <BDMVFolderPath>`
+   - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR"`
+3. Demux all media in the playlist to your project folder:
+   - `eac3to <BDMVFolderPath> <playlistNumber>) -demux -log="eac3to.txt"`
+   - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR" 1) -demux -log=eac3to.txt`
+4. To demux specific playlists and tracks, specify via the command line:
+   - `eac3to <BDMVFolderPath> <playlistNumber>) <trackNumber>:outputFilename.* -log="eac3to.txt"`
+   - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR" 1) 1:chapters.txt 2:video.* 3:audio.* 4:subtitles.* -log="eac3to.txt"`
+   - **Note:** DTS Express fails when using a wildcard extension (`.*`) and requires using the `.dts` extension instead.
 
 Method 2 (using DGDemux):
 
-1.  Open Windows Command Prompt and change the current directory to your project folder:
-    - `cd /d <projectFolderPath>`
-    - E.g. `cd /d "D:\workshop\"`
-2.  Use DGDemux to find the correct playlist:
-    - `dgdemux -d <BDMVFolderPath>`
-    - E.g. `dgdemux -d "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR"`
-3.  Demux all media in the playlist to your project folder:
-    - `dgdemux -i <MPLSFilePath> -o <OutputFilePath>`
-    - E.g. `dgdemux -i "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" -o "00001"`
-    - Exclude the file extension in the `-o` flag.
-4.  To demux specific tracks, specify via the command line:
-    - `dgdemux -i <MPLSFilePath> -o <OutputFilePath> -demux <PID>,<PID>,<PID>,...`
-    - E.g. `dgdemux -i "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" -o "tenet" -demux 1011,1100,Chapters`
-    - `PID` aka playlist ID is the hex value of the playlist shown using `dgdemux -i <MPLSFilePath>`.
-    - `Chapters` is a valid PID.
+1. Open Windows Command Prompt and change the current directory to your project folder:
+   - `cd /d <projectFolderPath>`
+   - E.g. `cd /d "D:\workshop\"`
+2. Use DGDemux to find the correct playlist:
+   - `dgdemux -d <BDMVFolderPath>`
+   - E.g. `dgdemux -d "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR"`
+3. Demux all media in the playlist to your project folder:
+   - `dgdemux -i <MPLSFilePath> -o <OutputFilePath>`
+   - E.g. `dgdemux -i "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" -o "00001"`
+   - Exclude the file extension in the `-o` flag.
+4. To demux specific tracks, specify via the command line:
+   - `dgdemux -i <MPLSFilePath> -o <OutputFilePath> -demux <PID>,<PID>,<PID>,...`
+   - E.g. `dgdemux -i "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" -o "tenet" -demux 1011,1100,Chapters`
+   - `PID` aka playlist ID is the hex value of the playlist shown using `dgdemux -i <MPLSFilePath>`.
+   - `Chapters` is a valid PID.
 
 Method 3 (useful when eac3to/DGDemux does not find all the playlists):
 
-1.  Use BDInfo to generate a BDInfo log of all playlists:
-    - CLI
-      - `bdinfo <BDMVFolderPath> -i`
-      - E.g. `bdinfo "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR" -i`
-    - GUI
-      - Open the BDMV folder inside the program.
-2.  Open Windows Command Prompt and change the current directory to your project folder:
-    - `cd /d <projectFolderPath>`
-    - E.g. `cd /d "D:\workshop\"`
-3.  Demux the correct playlist based on the information given in the BDInfo log:
-    - eac3to
-      - `eac3to <MPLSFilePath> 1) -demux -log="eac3to.txt"`
-      - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" 1) -demux -log="eac3to.txt"`
-    - DGDemux
-      - `dgdemux -i <MPLSFilePath> -o <OutputFilePath>`
-      - E.g. `dgdemux -i "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" -o "00001"`
-      - Exclude the file extension in the `-o` flag.
+1. Use BDInfo to generate a BDInfo log of all playlists:
+   - CLI
+     - `bdinfo <BDMVFolderPath> -i`
+     - E.g. `bdinfo "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR" -i`
+   - GUI
+     - Open the BDMV folder inside the program.
+2. Open Windows Command Prompt and change the current directory to your project folder:
+   - `cd /d <projectFolderPath>`
+   - E.g. `cd /d "D:\workshop\"`
+3. Demux the correct playlist based on the information given in the BDInfo log:
+   - eac3to
+     - `eac3to <MPLSFilePath> 1) -demux -log="eac3to.txt"`
+     - E.g. `eac3to "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" 1) -demux -log="eac3to.txt"`
+   - DGDemux
+     - `dgdemux -i <MPLSFilePath> -o <OutputFilePath>`
+     - E.g. `dgdemux -i "D:\discs\Tenet 2020 1080p Blu-ray AVC DTS-HD MA 5.1-ESiR\BDMV\PLAYLIST\00001.mpls" -o "00001"`
+     - Exclude the file extension in the `-o` flag.
 
 #### If there are hundreds of playlists
 
-1.  Open Process Monitor.
-2.  Filter by _including_ `Process Name is vlc.exe` and _including_ `Path contains mpls`.
-3.  Press the capture icon to start capturing.
-4.  Open and play the disc in VLC.
-5.  When you click `play` for example, vlc reads the playlist .MPLS file, which Process Manager filters.
-6.  `eac3to <playlistPath> -demux -log="eac3to.txt"`
+1. Open Process Monitor.
+2. Filter by _including_ `Process Name is vlc.exe` and _including_ `Path contains mpls`.
+3. Press the capture icon to start capturing.
+4. Open and play the disc in VLC.
+5. When you click `play` for example, vlc reads the playlist .MPLS file, which Process Manager filters.
+6. `eac3to <playlistPath> -demux -log="eac3to.txt"`
 
 #### Log warnings
 
@@ -251,14 +249,14 @@ Method 3 (useful when eac3to/DGDemux does not find all the playlists):
 #### Embedded forced subtitles
 
 - If the eac3to log mentions that the English subtitle track contains forced portions, these must be extracted with BDSup2Sub and provided as a separate track.
-  1.  Import the subtitle into BDSup2Sub.
-  2.  Set the `Target FPS` to the desired FPS to correctly align the timestamps.
-  3.  `File → Export → Export only forced → Save`
+  1. Import the subtitle into BDSup2Sub.
+  2. Set the `Target FPS` to the desired FPS to correctly align the timestamps.
+  3. `File → Export → Export only forced → Save`
 - E.g. `Subtitle track 7 contains 959 normal and 170 forced captions.`
 
 #### zlib subtitles
 
-- Subtitles originating from a remux using zlib compression will fail extraction with eac3to. [Use mkvextract instead](#3-2).
+- Subtitles originating from a remux using zlib compression will fail extraction with eac3to. [Use mkvextract instead](https://example.com/wikis/26#3-2).
 
 #### Playlist properties
 
@@ -278,20 +276,20 @@ MakeMKV should be used to demux DVDs, and it will often reveal hidden text-based
 
 Audio, subtitles and chapters can be extracted from DVD remuxes using MKVExtract:
 
-1.  Open Windows Command Prompt and change the current directory to your project folder:
-    - `cd /d <projectFolderPath>`
-    - E.g. `cd /d "D:\workshop\"`
-2.  Find audio and subtitle track ID:
-    - `mkvmerge <MKVFilePath> --identify`
-    - E.g. `mkvmerge "D:\title_01.mkv" --identify`
-3.  Extract audio and subtitle tracks:
-    - `mkvextract <MKVFilePath> tracks <TrackID>:<OutputFileName>`
-    - E.g. `mkvextract "D:\title_01.mkv" tracks "1:audio.ac3"`
-    - E.g. `mkvextract "D:\title_01.mkv" tracks "2:subs"`
-      - This will create files `subs.idx` and `subs.sub`.
-4.  Extract chapters:
-    - `mkvextract <MKVFilePath> chapters <XMLOutputFileName>`
-    - E.g. `mkvextract "D:\title_01.mkv" chapters chapters.xml`
+1. Open Windows Command Prompt and change the current directory to your project folder:
+   - `cd /d <projectFolderPath>`
+   - E.g. `cd /d "D:\workshop\"`
+2. Find audio and subtitle track ID:
+   - `mkvmerge <MKVFilePath> --identify`
+   - E.g. `mkvmerge "D:\title_01.mkv" --identify`
+3. Extract audio and subtitle tracks:
+   - `mkvextract <MKVFilePath> tracks <TrackID>:<OutputFileName>`
+   - E.g. `mkvextract "D:\title_01.mkv" tracks "1:audio.ac3"`
+   - E.g. `mkvextract "D:\title_01.mkv" tracks "2:subs"`
+     - This will create files `subs.idx` and `subs.sub`.
+4. Extract chapters:
+   - `mkvextract <MKVFilePath> chapters <XMLOutputFileName>`
+   - E.g. `mkvextract "D:\title_01.mkv" chapters chapters.xml`
 
 ### 3.3 Demux UHDBDs
 
@@ -316,8 +314,8 @@ Notes regarding MakeMKV:
 
 Use BDInfo to gather detailed information of all tracks:
 
-1.  Open the disc with BDInfo, select the playlist that was demuxed and click `Scan Bitrates`.
-2.  View and copy the report quick summary for later use.
+1. Open the disc with BDInfo, select the playlist that was demuxed and click `Scan Bitrates`.
+2. View and copy the report quick summary for later use.
 
 Alternatively, use the CLI:
 
@@ -334,13 +332,13 @@ It is important to identify the best source when studios of different regions ha
   - **Note**: the site is offline daily from 10:00-10:15 AM UTC.
 - If the bitrates in multiple sources are identical, they do not require comparison.
 
-Repeat [step 2 (Decrypt)](#2) through [step 5 (Compare)](#5) for all sources you can obtain.
+Repeat [step 2 (Decrypt)](https://example.com/wikis/26#2) through [step 5 (Compare)](https://example.com/wikis/26#5) for all sources you can obtain.
 
 ### 5.1 Find best video track
 
 Perceptual quality is of highest importance. The codec and bitrate can influence this. To compare two sources:
 
-- Use AVSPmod with [5.5 AviSynth+ script 1](#5-5)/[5.7 VapourSynth script 1](#5-7).
+- Use AVSPmod with [5.5 AviSynth+ script 1](https://example.com/wikis/26#5-5)/[5.7 VapourSynth script 1](https://example.com/wikis/26#5-7).
 - Check for characteristics such as: grain, compression artifacts, shadow retention, colors, HDR, and cropping.
   - Share comparison shots with others using [https://slow.pics](https://slow.pics/) to gauge public opinion.
   - Only B frames should be compared as they are the lowest quality.
@@ -351,28 +349,28 @@ Cut and combine sources (not recommended unless you know what you are doing) (cl
 
 If one video source is not consistently better throughout the film, it is possible to losslessly cut and combine the best zones of each source for an ultimate hybrid track:
 
-1.  Use AVSPmod with [5.6 AviSynth+ script 2](#5-6)/[5.8 VapourSynth script 1](#5-8).
-2.  A video stream can only be cut on an I-frame that has a P-frame directly before it.
-3.  A video stream must start with an I-frame.
-4.  A video stream must end with either a P-frame or B-frame.
-5.  The above principles constitute a “Group Of Pictures” (GOP)).
-6.  Find the timestamp / frame number of the start and end of a GOP.
-7.  Use `MKVToolNix → Multiplexer → Output → Splitting` to split the file based on timestamps.
-8.  Use MKVToolNix to import the first video track, then `right-click → Append files` to append other tracks.
-9.  After muxing, double-check that there are no corrupts frames by viewing the file both in players and a frame server.
+1. Use AVSPmod with [5.6 AviSynth+ script 2](https://example.com/wikis/26#5-6)/[5.8 VapourSynth script 1](https://example.com/wikis/26#5-8).
+2. A video stream can only be cut on an I-frame that has a P-frame directly before it.
+3. A video stream must start with an I-frame.
+4. A video stream must end with either a P-frame or B-frame.
+5. The above principles constitute a “Group Of Pictures” (GOP)).
+6. Find the timestamp / frame number of the start and end of a GOP.
+7. Use `MKVToolNix → Multiplexer → Output → Splitting` to split the file based on timestamps.
+8. Use MKVToolNix to import the first video track, then `right-click → Append files` to append other tracks.
+9. After muxing, double-check that there are no corrupts frames by viewing the file both in players and a frame server.
 10. Avidemux or LosslessCut can also be used as a GUI to cut on black frames easily.
 
 ### 5.2 Find best audio track
 
 Audio track quality attributes ranked from highest priority to lowest:
 
-1.  First priority: Perceptual quality is the most important characteristic when deciding quality. For example:
-    - A lower bit depth or even a lossy track without clipping might sound better than a lossless track with noticeable clipping.
-    - A music related production originally mixed in stereo and subsequently upmixed to 5.1 might sound better in stereo.
-    - A DVD may sound better than the BD: [http://blah-ray.blogspot.com/2017/01/dekalog-1989.html](https://blah-ray.blogspot.com/2017/01/dekalog-1989.html).
-    - Share comparisons of spectrogram and ampltiude statistics with others using [https://slow.pics](https://slow.pics/) to gauge public opinion.
-2.  Second priority: lossless encoding (LPCM, TrueHD, DTS-HD MA, DTS:X) is better than lossy (DD, DD+, DTS, DTS-HD HRA).
-3.  3rd priority: an object-based layer (DTS:X, Atmos) is better than none.
+1. First priority: Perceptual quality is the most important characteristic when deciding quality. For example:
+   - A lower bit depth or even a lossy track without clipping might sound better than a lossless track with noticeable clipping.
+   - A music related production originally mixed in stereo and subsequently upmixed to 5.1 might sound better in stereo.
+   - A DVD may sound better than the BD: [http://blah-ray.blogspot.com/2017/01/dekalog-1989.html](https://blah-ray.blogspot.com/2017/01/dekalog-1989.html).
+   - Share comparisons of spectrogram and ampltiude statistics with others using [https://slow.pics](https://slow.pics/) to gauge public opinion.
+2. Second priority: lossless encoding (LPCM, TrueHD, DTS-HD MA, DTS:X) is better than lossy (DD, DD+, DTS, DTS-HD HRA).
+3. 3rd priority: an object-based layer (DTS:X, Atmos) is better than none.
 
 If multiple mixes with different channel counts exist:
 
@@ -397,12 +395,12 @@ If a track is available in different languages:
 More audio exceptions (click to expand)
 
 - If a production was originally mastered in stereo, do not assume that the secondary 2.0 option on a source represents this mix, since it could just be a downmix of the remastered upmix. To verify this is not the case
-  1.  Downmix the upmix.
-  2.  Compare the audio spectrograms of the unknown downmix with both the downmixed upmix and the original mix from another source (e.g. a DVD/LD):
-      - Use sox, (as with eac3to, add its directory to your system path, and change your current directory to your project folder):
-      - E.g. `sox "inputAudio.ac3" -n remix 1 spectrogram -x 10000 -y 1025 -z 120 -o "outputSpectrogram-full.png"`
-      - E.g. `sox "inputAudio.ac3" -n remix 1 spectrogram -x 10000 -y 1025 -z 120 -S 5:00 -d 0:02 -o "outputSpectrogram-zoom.png"`
-      - The above command extracts a two second sample at the 5 minute mark. You may wish to change this.
+  1. Downmix the upmix.
+  2. Compare the audio spectrograms of the unknown downmix with both the downmixed upmix and the original mix from another source (e.g. a DVD/LD):
+     - Use sox, (as with eac3to, add its directory to your system path, and change your current directory to your project folder):
+     - E.g. `sox "inputAudio.ac3" -n remix 1 spectrogram -x 10000 -y 1025 -z 120 -o "outputSpectrogram-full.png"`
+     - E.g. `sox "inputAudio.ac3" -n remix 1 spectrogram -x 10000 -y 1025 -z 120 -S 5:00 -d 0:02 -o "outputSpectrogram-zoom.png"`
+     - The above command extracts a two second sample at the 5 minute mark. You may wish to change this.
 
 - Remember: first listen to the tracks, and only then attempt to back up your claim with evidence reflecting what you heard. To build a strong "case", your submission should include the following:
   - Statistics on each channel:
@@ -424,9 +422,9 @@ Not recommended unless you know what you're doing (click to expand)
   - This only works when both codecs are identical.
     - Exception: this does not work for codecs with object-based layers.
     - Exception: FLAC must first be converted to PCM or WAVS.
-  1.  Use `MKVToolNix → Multiplexer → Output → Splitting` to split the file based on timestamps.
-  2.  Use MKVToolNix to import the first audio track, then `right-click → Append files` to append other tracks.
-  3.  PCM tracks must be converted to FLAC, DTS-HD MA or TrueHD depending on the channel count in [step 6.1 (Convert)](#6-1).
+  1. Use `MKVToolNix → Multiplexer → Output → Splitting` to split the file based on timestamps.
+  2. Use MKVToolNix to import the first audio track, then `right-click → Append files` to append other tracks.
+  3. PCM tracks must be converted to FLAC, DTS-HD MA or TrueHD depending on the channel count in [step 6.1 (Convert)](https://example.com/wikis/26#6-1).
 
 ### 5.3 Collect all subtitles
 
@@ -639,7 +637,7 @@ If eac3to does not know the correct endianness, you can specify the format with 
 
 If the best audio track has 2 channels or less and is encoded with a lossless codec (e.g. DTS-HD MA 2.0 or LPCM):
 
-- It must be converted to FLAC using eac3to and updated FLAC set-up specified in [step 3 (Demux)](#3).
+- It must be converted to FLAC using eac3to and updated FLAC set-up specified in [step 3 (Demux)](https://example.com/wikis/26#3).
 - E.g. `eac3to audio.wavs audio.flac`
 
 If the best audio track has more than 2 channels and is encoded with a lossless uncompressed codec (e.g. LPCM or WAVs from a previous step):
@@ -657,20 +655,20 @@ If the best audio track has more than 2 channels and is encoded with a lossless 
 
 If a 2.0 track is dual mono (i.e. both channels are identical), do the following:
 
-1.  Check the disc cover for e.g. `DTS 2.0 Mono`.
-2.  Generate a spectrogram mixing channel 1 and 2 with channel 2 inverted:
-    - E.g. `sox dualmono.flac -n remix 1,2v-1 spectrogram -x 10000 -y 1025 -z 120 -o mono.png -c "Dual.Mono"`
-    - It will be entirely blank (black) if both channels are identical.
-    - If only short distributor sequences are coloured, it is still dual mono.
-    - Very dark blue spread throughout signifies "stereoized mono" and should be left untouched.
+1. Check the disc cover for e.g. `DTS 2.0 Mono`.
+2. Generate a spectrogram mixing channel 1 and 2 with channel 2 inverted:
+   - E.g. `sox dualmono.flac -n remix 1,2v-1 spectrogram -x 10000 -y 1025 -z 120 -o mono.png -c "Dual.Mono"`
+   - It will be entirely blank (black) if both channels are identical.
+   - If only short distributor sequences are coloured, it is still dual mono.
+   - Very dark blue spread throughout signifies "stereoized mono" and should be left untouched.
 
-3.  If it is 2.0 mono, then only one channel should be included in the remux:
-    - E.g. `C:\eac3to.exe "F:\Das.fliegende.Klassenzimmer.1954.GERMAN.COMPLETE.BLURAY-iFPD" 1) 3:audio_mono.flac -mono -log=eac3to.txt`
+3. If it is 2.0 mono, then only one channel should be included in the remux:
+   - E.g. `C:\eac3to.exe "F:\Das.fliegende.Klassenzimmer.1954.GERMAN.COMPLETE.BLURAY-iFPD" 1) 3:audio_mono.flac -mono -log=eac3to.txt`
 
-    Sometimes, a dual mono track will include short stereo sequences mixed by the distributor: In such cases, your new track should be based on the average of both channels:
-    - E.g. `sox dual.mono.flac mono.flac remix 1v0.5,2v0.5`
+   Sometimes, a dual mono track will include short stereo sequences mixed by the distributor: In such cases, your new track should be based on the average of both channels:
+   - E.g. `sox dual.mono.flac mono.flac remix 1v0.5,2v0.5`
 
-4.  Include the spectrogram and command in your description.
+4. Include the spectrogram and command in your description.
 
 ### 6.3 Convert text-based subtitles
 
@@ -688,43 +686,44 @@ Follow the [Subtitle OCR Guide](https://example.com/wikis/46) to convert low res
 
 SDR Subtitles must be tonemapped for HDR video or else they will be too bright:
 
-1.  Use subtitle_tonemap to tonemap SDR subtitles:
-    - e.g. `subtitle_tonemap "C:\path\to\subtitles.sup" --output tonemapped`
+1. Use subtitle_tonemap to tonemap SDR subtitles:
+   - e.g. `subtitle_tonemap "C:\path\to\subtitles.sup" --output tonemapped`
 
 HDR subtitles must be tonemapped for SDR video or else they will be too dark. Simply changing the brightness does not work as the blacks will no longer be black.
 
-1.  Open the .PGS subtitle in BDSup2Sub and export .PGS to .PNG + .XML.
-    - Make sure the `FPS Target` is set to the desired framerate to correctly align the timestamps.
-2.  Use the following script over the extract image folder with [imagemagick](https://imagemagick.org/index.php):
-    - Powershell:
+1. Open the .PGS subtitle in BDSup2Sub and export .PGS to .PNG + .XML.
+   - Make sure the `FPS Target` is set to the desired framerate to correctly align the timestamps.
+2. Use the following script over the extract image folder with [imagemagick](https://imagemagick.org/index.php):
+   - Powershell:
 
-      ```
-      mkdir mapped
-      $files = @(Get-ChildItem *.png)
-      foreach ($f in $files) {
-          $file=$f.name
-          magick.exe $file -fuzz 15% -fill 'rgb(204,204,204)' -opaque 'rgb(152,152,152)' -fuzz 15% -fill 'rgb(195,195,195)' -opaque 'rgb(109,109,109)' mapped/$file
-      }
-      ```
+     ```
+     mkdir mapped
+     $files = @(Get-ChildItem *.png)
+     foreach ($f in $files) {
+         $file=$f.name
+         magick.exe $file -fuzz 15% -fill 'rgb(204,204,204)' -opaque 'rgb(152,152,152)' -fuzz 15% -fill 'rgb(195,195,195)' -opaque 'rgb(109,109,109)' mapped/$file
+     }
+     ```
 
-    - Bash:
+   - Bash:
 
-      ```
-      mkdir mapped
-      for file in *.png; do
-          magick $file -fuzz 15% -fill 'rgb(204,204,204)' -opaque 'rgb(152,152,152)' -fuzz 15% -fill 'rgb(195,195,195)' -opaque 'rgb(109,109,109)' mapped/$file
-      done
-      ```
+     ```
+     mkdir mapped
+     for file in *.png; do
+         magick $file -fuzz 15% -fill 'rgb(204,204,204)' -opaque 'rgb(152,152,152)' -fuzz 15% -fill 'rgb(195,195,195)' -opaque 'rgb(109,109,109)' mapped/$file
+     done
+     ```
 
-    - You might need two passes or even two different fill colours, for the fade between the black border.
-    - **Note**: The colours may be incorrect on your first try.
-3.  Import the .XML and .PNG back to .PGS using BDSup2Sub.
+   - You might need two passes or even two different fill colours, for the fade between the black border.
+   - **Note**: The colours may be incorrect on your first try.
+
+3. Import the .XML and .PNG back to .PGS using BDSup2Sub.
 
 ## 7 Chapters
 
 ### 7.1 Collect
 
-Collect chapters using the eac3to command from [step 3 (Demux)](#3).
+Collect chapters using the eac3to command from [step 3 (Demux)](https://example.com/wikis/26#3).
 
 ### 7.2 Check for accuracy
 
@@ -814,13 +813,13 @@ Example of user-corrected chapters (click to expand)
 
 If eac3to did not find chapters or they are not named:
 
-1.  Check the BD menu with VLC.
-2.  Check all other available retail sources (including DVDs and WEB sources such as an AMZN WEB-DL).
-    - If a disc has non-English chapters, consider finding someone who can translate them for you.
-    - Named chapters are always preferred to numbered chapters.
-    - Considering searching [https://dvdmoviemenus.com](https://dvdmoviemenus.com/).
-3.  If no acceptable chapter names can be found, name them Chapter 01, Chapter 02, etc. using the source with the best scene change intervals.
-4.  If no acceptable chapter timings can be found, generate some at reasonable intervals (e.g. at major scene changes).
+1. Check the BD menu with VLC.
+2. Check all other available retail sources (including DVDs and WEB sources such as an AMZN WEB-DL).
+   - If a disc has non-English chapters, consider finding someone who can translate them for you.
+   - Named chapters are always preferred to numbered chapters.
+   - Considering searching [https://dvdmoviemenus.com](https://dvdmoviemenus.com/).
+3. If no acceptable chapter names can be found, name them Chapter 01, Chapter 02, etc. using the source with the best scene change intervals.
+4. If no acceptable chapter timings can be found, generate some at reasonable intervals (e.g. at major scene changes).
 
 Named chapters should be capitalized according to the APA Style Guide. Refer to [https://capitalizemytitle.com/](https://capitalizemytitle.com/) for further assistance.
 
@@ -836,20 +835,21 @@ Different sources will often need to be timed so that they are in sync. Chapters
 
 Method 1: compare video (recommended):
 
-1.  Open both video tracks in AviSynth+/VapourSynth.
-2.  Find the difference in frame count between the same frame on both tracks.
-3.  Convert this frame offset to seconds using the rational framerate.
-    - **Note**: 23.976 fps is actually 24000/1001.
-    - E.g. Divide an offset of 120 frames by (24000 frames / 1001 seconds) to get 5.005 seconds.
+1. Open both video tracks in AviSynth+/VapourSynth.
+2. Find the difference in frame count between the same frame on both tracks.
+3. Convert this frame offset to seconds using the rational framerate.
+   - **Note**: 23.976 fps is actually 24000/1001.
+   - E.g. Divide an offset of 120 frames by (24000 frames / 1001 seconds) to get 5.005 seconds.
 
-      > 120 / (24000/1001) = 5.005
-4.  Apply delay to audio in MKVToolNix.
+     > 120 / (24000/1001) = 5.005
+
+4. Apply delay to audio in MKVToolNix.
 
 Method 2: compare audio
 
-1.  Open both audio tracks in Audacity.
-2.  Find the time offset between peaks/crests in waveform.
-3.  Apply delay to audio in MKVToolNix.
+1. Open both audio tracks in Audacity.
+2. Find the time offset between peaks/crests in waveform.
+3. Apply delay to audio in MKVToolNix.
 
 Alternatively, to prevent the `Delay relative to video` value from showing up in your mediainfo, trim the bitstreams directly with eac3to:
 
@@ -866,41 +866,41 @@ Alternatively, to prevent the `Delay relative to video` value from showing up in
 If the negative delay cuts off non-silent audio, you would need to prepend black video to the video track:
 
 - This black video can be a 1-second cut of the beginning of the opening sequence or end of credits.
-- See [step 5.1 (Compare: find best video track → Highly Advanced)](#5-1)
+- See [step 5.1 (Compare: find best video track → Highly Advanced)](https://example.com/wikis/26#5-1)
 
 ### 8.2 Sync chapters to scene-change frames
 
 Do the following:
 
-1.  Use [5.6 AviSynth+ script 2](#5-6) or [5.8 VapourSynth script 2](#5-8) with AVSPMod and open the video.
-2.  Go to `Macros → Import Bookmarks From File` (AVSPMod) or `Script → Preview → Load Chapters` (VSEdit), and import the corrected eac3to-extracted chapters.txt or the corrected MKVExtract-extracted chapter XML as done in [step 7.2 (Chapters: check for accuracy)](#7-2).
-3.  Use `F2` and `shift+F2` (AVSPMod) or `Ctrl+left` and `Ctrl+right` (VSEdit) to jump to the next/previous chapter and verify it is on the correct scene and on the scene-change frame.
-4.  If the chapter on the scene-change frame is not an I-frame.
-    1.  Find the closest I-frame through the `next`/`previous` frame buttons.
-    2.  Remove the old bookmark and add the new one by pressing `Ctrl+B` on the selected frame (AVSPMod) or by pressing `[Un]bookmark current frame` (VSEdit).
-    - Exception: verify that the chosen I-frame does not have dialogue or obvious scene noises that start or finish before the video change.
-      - If it does, find the nearest I-frame that doesn't cut off that dialogue.
-    - Exception: very rarely, the original intent may have been to place a named chapter change at a point that maintains a thematic beat rather than to cut a scene.
-      - If it's evident that the named chapter corresponds with a thematic beat, choose the best available I-frame that maintains that beat.
-    - Another way is using Avidemux or LosslessCut which are GUIs with buttons that "skip to the next keyframe".
+1. Use [5.6 AviSynth+ script 2](https://example.com/wikis/26#5-6) or [5.8 VapourSynth script 2](https://example.com/wikis/26#5-8) with AVSPMod and open the video.
+2. Go to `Macros → Import Bookmarks From File` (AVSPMod) or `Script → Preview → Load Chapters` (VSEdit), and import the corrected eac3to-extracted chapters.txt or the corrected MKVExtract-extracted chapter XML as done in [step 7.2 (Chapters: check for accuracy)](https://example.com/wikis/26#7-2).
+3. Use `F2` and `shift+F2` (AVSPMod) or `Ctrl+left` and `Ctrl+right` (VSEdit) to jump to the next/previous chapter and verify it is on the correct scene and on the scene-change frame.
+4. If the chapter on the scene-change frame is not an I-frame.
+   1. Find the closest I-frame through the `next`/`previous` frame buttons.
+   2. Remove the old bookmark and add the new one by pressing `Ctrl+B` on the selected frame (AVSPMod) or by pressing `[Un]bookmark current frame` (VSEdit).
+   - Exception: verify that the chosen I-frame does not have dialogue or obvious scene noises that start or finish before the video change.
+     - If it does, find the nearest I-frame that doesn't cut off that dialogue.
+   - Exception: very rarely, the original intent may have been to place a named chapter change at a point that maintains a thematic beat rather than to cut a scene.
+     - If it's evident that the named chapter corresponds with a thematic beat, choose the best available I-frame that maintains that beat.
+   - Another way is using Avidemux or LosslessCut which are GUIs with buttons that "skip to the next keyframe".
 
 ### 8.3 Sync subtitles
 
 Sync retail subtitles (.PGS, VobSub):
 
 - Method 1:
-  1.  Import the subtitles into BDSup2Sub.
-  2.  Set the `FPS Target` to the desired FPS to correctly align the timestamps.
-  3.  If necessary, convert the framerate (e.g. PAL to NTSC) or add an offset.
-      - When you click `OK`, the converted timestamps will be lossily rounded, so don't edit these conversions more than once after importing the subtitle.
-  4.  Or, export .PGS to .PNG + .XML, then edit the .XML and finally import back to PGS.
+  1. Import the subtitles into BDSup2Sub.
+  2. Set the `FPS Target` to the desired FPS to correctly align the timestamps.
+  3. If necessary, convert the framerate (e.g. PAL to NTSC) or add an offset.
+     - When you click `OK`, the converted timestamps will be lossily rounded, so don't edit these conversions more than once after importing the subtitle.
+  4. Or, export .PGS to .PNG + .XML, then edit the .XML and finally import back to PGS.
 - Method 2:
-  1.  Import the VobSub into Subtitle Edit.
-  2.  Click `OK` to bypass the OCR.
-  3.  Sync the timestamps of individual lines or use the `Synchronization` tab.
-  4.  Install the plugin (`File → Plugins`) `Replace VobSub IDX timestamps`.
-  5.  Activate the plugin (`Synchronization → Replace IDX timestamps`).
-  6.  The .IDX file will be duplicated and overwritten with the new timings.
+  1. Import the VobSub into Subtitle Edit.
+  2. Click `OK` to bypass the OCR.
+  3. Sync the timestamps of individual lines or use the `Synchronization` tab.
+  4. Install the plugin (`File → Plugins`) `Replace VobSub IDX timestamps`.
+  5. Activate the plugin (`Synchronization → Replace IDX timestamps`).
+  6. The .IDX file will be duplicated and overwritten with the new timings.
 - Method 3:
   - Use BDSup2Sub programmatically:
     - Batch:
@@ -917,25 +917,26 @@ Sync retail subtitles (.PGS, VobSub):
               java -jar BDSup2Sub512.jar --delay "-1000" --fps-target "23.976" "$i" --output "synced/$(basename $i)"
           done
       ```
+
 - **Note**: The delay entered into BDSup2Sub is offset by a frame. E.g. for a delay of -2419 ms, specify `-2460` (one frame at 24 fps is 41.7 ms).
 
 **Note**: Do not use MKVToolNix to delay .PGS retail subtitles since it does not conform with Blu-ray subtitle timing specifications. Use BDSup2Sub instead.
 
 Sync retail subtitles (.SRT):
 
-1.  Import the .SRT file into Subtitle Edit.
-2.  Import the video file you are syncing to into Subtitle Edit.
-3.  Use the `Synchronization` tab.
-4.  Adjust the frame rate if necessary.
-5.  Select `Adjust all times` and enter the delay if necessary.
-6.  Check that the sync is fitting by watching a couple of minutes at 10 minute intervals.
-    - If they go out of sync at any point due to a different cut or scene change padding, find that exact point and adjust the delay accordingly.
-7.  In rare cases, you might need to adjust the speed by a small margin.
-    - This happens mostly with PAL DVD subtitles, usually only by less than 1% (test with 0.1% increments).
-8.  Manual syncing might be required for older movies. For advanced cases or users **ONLY**:
-    1.  Select points at 5 to 10 minute intervals.
-    2.  Add the waveform.
-    3.  Sync each line that differs too much from the correct timing.
+1. Import the .SRT file into Subtitle Edit.
+2. Import the video file you are syncing to into Subtitle Edit.
+3. Use the `Synchronization` tab.
+4. Adjust the frame rate if necessary.
+5. Select `Adjust all times` and enter the delay if necessary.
+6. Check that the sync is fitting by watching a couple of minutes at 10 minute intervals.
+   - If they go out of sync at any point due to a different cut or scene change padding, find that exact point and adjust the delay accordingly.
+7. In rare cases, you might need to adjust the speed by a small margin.
+   - This happens mostly with PAL DVD subtitles, usually only by less than 1% (test with 0.1% increments).
+8. Manual syncing might be required for older movies. For advanced cases or users **ONLY**:
+   1. Select points at 5 to 10 minute intervals.
+   2. Add the waveform.
+   3. Sync each line that differs too much from the correct timing.
 
 Create/edit custom subtitles (.SRT):
 
@@ -1074,16 +1075,16 @@ Use MKVToolNix to remux the assets you've prepared into an MKV container.
 
 Import the following:
 
-1.  Best video track.
-2.  Best audio track, and if relevant: original mixes, commentaries, isolated score.
-3.  Best subtitles from all possible languages.
-    - Important: exclude all forced foreign subtitles designed for their dubbed counterparts.
+1. Best video track.
+2. Best audio track, and if relevant: original mixes, commentaries, isolated score.
+3. Best subtitles from all possible languages.
+   - Important: exclude all forced foreign subtitles designed for their dubbed counterparts.
 
 If a movie is divided between more than one disc:
 
-1.  Import the first section of the movie
-2.  Right-click the first section and select `Append files`.
-3.  Select to append the second section of the movie.
+1. Import the first section of the movie
+2. Right-click the first section and select `Append files`.
+3. Select to append the second section of the movie.
 
 ### 10.2 Order the tracks
 
@@ -1097,39 +1098,39 @@ The main video track should be placed first.
 
 Audio should be placed second and in the following sequence:
 
-1.  Main audio with the highest perceptual quality (discretion needed).
-2.  Compatibility track
-    - Placed immediately after the track it provides compatibility for.
-    - When you demux a TrueHD track correctly (see [step 3 (Demux)](#3)), the compatibility track will be exported as a separate track. Make sure to include this second compatibility track in addition to the main track.
-3.  Alternative/unique audio mixes
-    - If there are multiple audio mixes, order them according to quality, starting with what is objectively the best option. This will usually, but not always, be the one with the highest channel count and/or bitrate.
-4.  Isolated scores
-5.  Commentaries
-    - Order of importance. Generally:
-      1.  Director
-      2.  DP/cinematographer
-      3.  Actors
-      4.  Film critics / Others
-    - However, for example, if an actor is more notable than the director (e.g. a James Bond movie), the actor's commentary should be first.
+1. Main audio with the highest perceptual quality (discretion needed).
+2. Compatibility track
+   - Placed immediately after the track it provides compatibility for.
+   - When you demux a TrueHD track correctly (see [step 3 (Demux)](https://example.com/wikis/26#3)), the compatibility track will be exported as a separate track. Make sure to include this second compatibility track in addition to the main track.
+3. Alternative/unique audio mixes
+   - If there are multiple audio mixes, order them according to quality, starting with what is objectively the best option. This will usually, but not always, be the one with the highest channel count and/or bitrate.
+4. Isolated scores
+5. Commentaries
+   - Order of importance. Generally:
+     1. Director
+     2. DP/cinematographer
+     3. Actors
+     4. Film critics / Others
+   - However, for example, if an actor is more notable than the director (e.g. a James Bond movie), the actor's commentary should be first.
 
 #### 10.2.3 Order the subtitles
 
 Subtitles should be placed next in the following order:
 
-1.  First: forced `for non-English dialogue`/`for non-English dialogue/titles` for the production's primary spoken language if applicable.
-2.  Next: `Intertitles` for the production's primary language if applicable.
-3.  Next: subtitles are ordered alphabetically by their English name (except English language itself, which is always first).
-    - Within each language, dialects are ordered alphabetically by their English name (except the base dialect, which is always first).
-      - Within each dialect, group individual retail sources in order of quality (e.g. if a Criterion DVD source has better quality English translation than that of the Blu-ray).
-        - Within each specific source, the regular subtitle variant comes first, followed by the SDH variant.
-      - Do not include forced foreign subtitles designed for their dubbed counterparts.
-      - Base dialects include: French (Parisian), Spanish (Castilian) and Portuguese (Iberian).
-        - If the dialect is associated with the language's country of origin, then it is usually the base dialect.
-        - Chinese does not have a base dialect. Simplified, Traditional or Cantonese should be specified for the written script type.
-4.  Next: `For non-English parts on English dub` if applicable.
-5.  Next: `Intertitles` for the English dub if applicable.
-6.  Next: subtitles for English dub if applicable.
-7.  Next: subtitles for commentaries in the same order of the audio track(s).
+1. First: forced `for non-English dialogue`/`for non-English dialogue/titles` for the production's primary spoken language if applicable.
+2. Next: `Intertitles` for the production's primary language if applicable.
+3. Next: subtitles are ordered alphabetically by their English name (except English language itself, which is always first).
+   - Within each language, dialects are ordered alphabetically by their English name (except the base dialect, which is always first).
+     - Within each dialect, group individual retail sources in order of quality (e.g. if a Criterion DVD source has better quality English translation than that of the Blu-ray).
+       - Within each specific source, the regular subtitle variant comes first, followed by the SDH variant.
+     - Do not include forced foreign subtitles designed for their dubbed counterparts.
+     - Base dialects include: French (Parisian), Spanish (Castilian) and Portuguese (Iberian).
+       - If the dialect is associated with the language's country of origin, then it is usually the base dialect.
+       - Chinese does not have a base dialect. Simplified, Traditional or Cantonese should be specified for the written script type.
+4. Next: `For non-English parts on English dub` if applicable.
+5. Next: `Intertitles` for the English dub if applicable.
+6. Next: subtitles for English dub if applicable.
+7. Next: subtitles for commentaries in the same order of the audio track(s).
 
 Subtitle ordering example (Click the following to expand):
 
@@ -1147,8 +1148,8 @@ The video track title should reflect the BDInfo Quick Summary
 - Verify that there are no double spaces with only a single space on each side of the `/`.
 - Change the properties from the BDInfo to reflect the remuxed stream:
   - 25 fps 1080i Blu-ray sources should be referred to as 1080p.
-  - Framerate should reflect modifications caused from [Step 8.1 (Sync audio to video with offset)](#8-1).
-  - Bitrate should reflect modifications caused from [Step 5 (Split or combine sources)](#5). Using the BitrateViewer is preferred on hybrids to gather bitrate precise to 2 decimal places.
+  - Framerate should reflect modifications caused from [Step 8.1 (Sync audio to video with offset)](https://example.com/wikis/26#8-1).
+  - Bitrate should reflect modifications caused from [Step 5 (Split or combine sources)](https://example.com/wikis/26#5). Using the BitrateViewer is preferred on hybrids to gather bitrate precise to 2 decimal places.
 - For Dolby Vision, `FEL` should be specified when the layer's bitrate exceeds ~2500 kbps, otherwise, `MEL` should be specified. See [blu-ray.com](https://forum.blu-ray.com/showthread.php?p=12116287#post12116287) and the [wiki](https://example.com/wikis/33) for further guidance.
 
 #### 10.3.2 Name the audio
@@ -1157,7 +1158,7 @@ The audio track title(s) should reflect the BDInfo Quick Summary.
 
 - E.g. `DTS:X Master Audio / 7.1 / 48 kHz / 6586 kbps / 24-bit`
 - Verify that there are no double spaces with only a single space on each side of the `/`.
-- Only change the properties from the BDInfo if the bitdepth, bitrate, or codec was changed in [Step 6 (conversion)](#6) or [Step 5 (Split or combine sources)](#5).
+- Only change the properties from the BDInfo if the bitdepth, bitrate, or codec was changed in [Step 6 (conversion)](https://example.com/wikis/26#6) or [Step 5 (Split or combine sources)](https://example.com/wikis/26#5).
 
 Audio track title naming exceptions:
 
@@ -1266,10 +1267,10 @@ Subtitles must be set to the correct language. You may need to enable additional
 
 **Language flags**. The following should be set:
 
-1.  Set video track to the same language as the main audio track.
-2.  Set audio track to its respective language.
-    - If there is no dialogue, the language code is `zxx`.
-3.  Set subtitle track to its respective language, including the dialect if applicable.
+1. Set video track to the same language as the main audio track.
+2. Set audio track to its respective language.
+   - If there is no dialogue, the language code is `zxx`.
+3. Set subtitle track to its respective language, including the dialect if applicable.
 
 Set the following boolean flags to `no` if the following cases don't apply.
 
@@ -1311,9 +1312,9 @@ Set the following boolean flags to `no` if the following cases don't apply.
 - `TV Show Name - S##E##`
   - Only if the TV show episodes were not given names.
 
-**Chapter file**. Add the chapter file created from [step 7 (Chapters)](#7) on the Output tab.
+**Chapter file**. Add the chapter file created from [step 7 (Chapters)](https://example.com/wikis/26#7) on the Output tab.
 
-**Tag file**. Add the tag file created from [step 9 (Tag)](#9) on the Output Tab.
+**Tag file**. Add the tag file created from [step 9 (Tag)](https://example.com/wikis/26#9) on the Output Tab.
 
 ### 10.5 Name the file
 
@@ -1612,7 +1613,7 @@ eac3to processing took 1 minute, 21 seconds.
 Done.
 ```
 
-## Changelog:
+## Changelog
 
 - 2025-06-16: Improved subtitle naming information.
 
@@ -1655,15 +1656,15 @@ Changed:
 
 Subtitle ordering example:
 
-1.  English - `for foreign dialogue`
-2.  English
-3.  English - `SDH`
-4.  Chinese - `Traditional`
-5.  French
-6.  French - `SDH`
-7.  French - `Canadian`
-8.  French - `SDH / Canadian`
-9.  English - `For non-English parts on English dub` (only if production's primary language was not English)
+1. English - `for foreign dialogue`
+2. English
+3. English - `SDH`
+4. Chinese - `Traditional`
+5. French
+6. French - `SDH`
+7. French - `Canadian`
+8. French - `SDH / Canadian`
+9. English - `For non-English parts on English dub` (only if production's primary language was not English)
 10. English - `Dub` (only if production's primary language was not English)
 11. English - `Commentary by ...`
 12. Chinese - `Traditional / Commentary by ...`
